@@ -3,7 +3,7 @@ var router = express.Router();
 var hometrack = require('../includes/hometrack.js');
 
 /* GET home page. */
-router.post('/filter', [
+router.post('/', [
 	hometrack.filter
 ]);
 
